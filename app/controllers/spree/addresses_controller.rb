@@ -29,6 +29,6 @@ class Spree::AddressesController < Spree::BaseController
     else
       @address.update_attribute(:deleted_at, Time.now)
     end
-    redirect_to :back
+    redirect_to 'http://www.google.com'
   end
 end
